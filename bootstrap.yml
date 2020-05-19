@@ -1,0 +1,9 @@
+eureka:
+  client:
+    servic-url:
+      defaultZone: http://localhost:8888/eureka
+spring:
+  application:
+    name: springcloud-config
+server:
+  port: 8889
